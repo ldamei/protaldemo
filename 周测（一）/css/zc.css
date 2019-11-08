@@ -1,0 +1,162 @@
+/*通用样式*/
+body{
+    margin: 0;
+    background-image: url("../img/1.png");
+    background-size:100% 100%;
+}
+a{
+    text-decoration: none;
+}
+/*wk*/
+#wk{
+    height: 468px;
+    width: 100%;
+    /*border: 1px seagreen solid;*/
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*zt*/
+#zt{
+   height: 350px;
+    width: 350px;
+    /*border: 1px seagreen solid;*/
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/*八个小链接*/
+.text{
+    color: white;
+    text-align: left;
+    opacity: 0.9;
+}
+#zt-1{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-size: 60%;
+}
+#zt-1 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-2{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    font-size: 60%;
+}
+#zt-2 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-3{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+    font-size: 60%;
+}
+#zt-3 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-4{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    font-size: 60%;
+}
+#zt-4 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-5{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    bottom: 80px;
+    right: 10px;
+    font-size: 60%;
+}
+#zt-5 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-6{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    bottom: 80px;
+    left: 10px;
+    font-size: 60%;
+}
+#zt-6 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-7{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    top: 80px;
+    right: 10px;
+    font-size: 60%;
+}
+#zt-7 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+#zt-8{
+    height: 60px;
+    width: 60px;
+    /*border: 1px red solid;*/
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 60%;
+}
+#zt-8 img{
+    height: 60%;
+    width: 60%;
+    opacity: 0.8;
+}
+
+#ztt{
+    height: 220px;
+    width: 220px;
+    /*border: 1px seagreen solid;*/
+}
+#ztt-1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border: 2px white solid;
+    border-radius: 250px;
+    opacity: 0.3;
+}
