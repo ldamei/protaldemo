@@ -1,0 +1,93 @@
+
+/*通用样式*/
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*外框*/
+#wk{
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+#wk img{
+    height: 100%;
+    width: 100%;
+}
+
+/*圆*/
+#yuan{
+    height: 20px;
+    width: 180px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 15px;
+    left: 30px;
+    justify-content: space-around;
+}
+.yuan-o{
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color:white;
+    opacity: 0.5;
+}
+#yuan-s{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color:white;
+    position: absolute;
+}
+
+/*左耳*/
+#e-l{
+    /*border: 1px seagreen solid;*/
+    position: absolute;
+    top: 50%;
+    left: -18px;
+}
+#e-l-o{
+    height: 25px;
+    width: 36px;
+    border-radius: 15px;
+    background-color:white;
+    opacity: 0.4;
+}
+#e-l-h{
+    height: 25px;
+    width: 18px;
+    background-color: white;
+    float: left;
+}
+
+/*右耳*/
+#e-r{
+    /*border: 1px seagreen solid;*/
+    position: absolute;
+    top: 50%;
+    right: -18px;
+}
+#e-r-o{
+    height: 25px;
+    width: 36px;
+    border-radius: 15px;
+    background-color:white;
+    opacity: 0.4;
+}
+/*#e-r-o img{*/
+    /*height: 25px;*/
+    /*width: 36px;*/
+    /*background-color:red;*/
+/*}*/
+#e-r-h{
+    height: 25px;
+    width: 18px;
+    background-color: white;
+    float: right;
+}

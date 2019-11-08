@@ -1,0 +1,139 @@
+/*外框*/
+#wk {
+    width: 600px;
+    margin: auto;
+}
+/*第一部分*/
+#con-b{
+    height: 35px;
+    width: 600px;
+    border-bottom: 3px solid #c20c0c;
+    /*background-color: #E22313;*/
+}
+/*标题*/
+#con-bf{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 20px;
+    float: left;
+}
+#con-bs{
+    float: left;
+}
+#con-bs,#con-bt{
+    font-size:12px ;
+    color: #666;
+    margin-top: 15px;
+}
+#con-bt{
+    float: right;
+ }
+#con-bt span{
+    color: #c20c0c;
+    font-weight: bold;
+}
+/*第二部分*/
+#con-p{
+    /*width: 600px;*/
+    border: 1px #F3F3F3 solid;
+}
+/*表头*/
+#con-pf{
+    width: 100%;
+    /*border: 1px #666 solid;*/
+}
+#con-pt{
+    background-color: #F3F3F3;
+}
+.conp-b{
+    height: 25px;
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+    border-right: 1px #DEDEDE solid;
+    border-bottom: 1px #DEDEDE solid;
+    text-align: left;
+    padding-left: 10px;
+}
+/**/
+.con-p2{
+    background-color: #F3F3F3;
+}
+.con-p2 td{
+    padding: 12px 20px;
+}
+#con-p3{
+    background-color: white;
+}
+#con-p3 td{
+    padding: 5px 20px;
+}
+/*第一列*/
+.conp-t{
+    font-size: 10px;
+    color: #999;
+}
+.conp-e2{
+    font-size: 6px;
+    color: #358B3E;
+    margin-left: 10px;
+}
+/*第二列*/
+.conp-f{
+    display: flex;
+    align-items: center;
+}
+
+#conpf-1{
+    margin-right: 15px;
+}
+#conpf-2{
+
+}
+.conpf-2{
+    font-size: 12px;
+    margin-left: 7px;
+}
+.conpf-2 a{
+    color: #333333;
+    text-decoration: none;
+}
+.conpf-3{
+    height: 22px;
+    width: 22px;
+    /*border: 1px seagreen solid;*/
+}
+.conpf-3 img{
+    height: 100%;
+    width: 100%;
+}
+.conpf-4{
+    height: 17px;
+    width: 23px;
+    border: 1px #CFCFCF solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conpf-4 img{
+    height: 80%;
+    width: 80%;
+}
+.conp-w{
+    padding-left: 8px !important;
+    font-size: 12px;
+    color: #333333;
+}
+/*设置表头宽度*/
+.conp-1{
+    width: 10%;
+}
+.conp-2{
+    width: 40%;
+}
+.conp-3{
+    width: 10%;
+}
+.conp-4{
+    width: 20%;
+}
