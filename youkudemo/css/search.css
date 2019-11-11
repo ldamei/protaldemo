@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*外框*/
+#wk{
+    background-color: white;
+}
+/*第一部分*/
+#wk-f{
+    height: 33px;
+    width: 100%;
+    background-color: #EBF3FA;
+    padding: 10px;
+    position: relative;
+}
+#wkf-0 a img{
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#wkf-1{
+    height: 31px;
+    width:270px;
+}
+#wkf-1 input{
+    position: absolute;
+    top: 11px;
+    left: 60px;
+    width: 55.5%;
+    height: 31px;
+    padding: 0 35px 0 10px;
+    border: 1px solid #3593e3;
+    background: #fff;
+    color: #909090;
+    font-size: 14px;
+    outline: none;
+}
+#wkf-1 a img{
+     height: 20px;
+     width: 20px;
+     position: absolute;
+     left:300px;
+     bottom: 15px;
+}
+#wkf-2{
+    width: 40px;
+    height: 34px;
+    background-color:#3593E3 ;
+    position: absolute;
+    left:325px;
+    bottom: 8.5px;
+}
+#wkf-2 a img{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left:8px;
+    bottom: 4px;
+}
+/*第二部分*/
+#wk-s{
+    height: 115px;
+    width: 375px;
+    margin: 10px;
+    position: relative;
+}
+#wk-s0 a img{
+    height: 90px;
+    width: 60px;
+}
+#wk-s1{
+    height: 60px;
+    width: 285px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}

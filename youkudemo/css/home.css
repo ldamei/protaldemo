@@ -40,8 +40,8 @@ a{
     top: 30%;
 }
 #wk-f2 a img{
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
 }
 #wk-f3{
     position: absolute;
@@ -82,14 +82,17 @@ a{
     height: 20px;
     width: 20px;
 }
-#wk-s4{
+#wk-s2 div{
+    position: relative;
+}
+#y{
     height: 4px;
     width: 4px;
     border-radius: 2px;
     background-color:#24A5FF;
     position: absolute;
-    bottom: 7px;
-    left: 29px;
+    bottom: 0;
+    left: 13px;
 }
 /*第三部分*/
 #wk-t{
@@ -158,12 +161,12 @@ a{
     position: relative;
     float: left;
     height: 175.8px;
-    width: 187.6px;
+    width: 50%;
     /*border-right: white 5px solid;*/
 }
 .wkh-p{
     height: 104px;
-    width: 175.8px;
+    width: 184px;
 }
 .wkh-p img{
     height: 104px;
@@ -173,7 +176,7 @@ a{
     background: #fc4273;
     position: absolute;
     font-size: 11px;
-    right: 5px;
+    left: 150px;
     top: 0;
     color: #fff;
     border-radius: 2px;
@@ -186,7 +189,7 @@ a{
     width:41.56px;
     position: absolute;
     bottom: 80px;
-    right: 5px;
+    left: 135px;
     font-size: 11px;
     color: #fff;
     text-align: right;
@@ -205,4 +208,137 @@ a{
     color: #999999;
     padding-left: 9px;
     margin: 0 0 20px;
+}
+/*第五部分*/
+#wk-i{
+    /*height: 200px;*/
+    width: 100%;
+    float: left;
+}
+#wk-i2{
+    width: 100%;
+    margin: 0 0 10px 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+#wk-i3{
+    height:282px ;
+    width: 100%;
+    position: relative;
+}
+#wk-i3 a img{
+    height:210px;
+    width: 100%;
+}
+#wki-i{
+    background: #fc4273;
+    position: absolute;
+    font-size: 11px;
+    right: 7px;
+    top: 0;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0 3px;
+    height: 16px;
+}
+.wki-t{
+    height: 25px;
+    width: 363px;
+    font-size: 15px;
+    color: #000;
+    padding-left: 9px;
+    margin: 10px 0 0 ;
+}
+.wki-d{
+    height: 16.8px;
+    width: 363px;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 9px;
+    margin: 0 0 20px;
+}
+/*第六部分*/
+#wk-x{
+    width: 100%;
+}
+#wk-x2,#wk-x3,#wk-x4,#wk-x5,#wk-x6,#wk-x7{
+    height: 255.8px;
+    /*width: 33%;*/
+    position: relative;
+    float: left;
+    width: 33.3%;
+}
+.wkx-p{
+    height: 184px;
+    width: 123px;
+
+}
+.wkx-p img{
+    height: 184px;
+    width: 123px;
+}
+#wkx2-h,#wkx3-h,#wkx4-h,#wkx5-h,#wkx6-h,#wkx7-h{
+    background: #fc4273;
+    position: absolute;
+    font-size: 11px;
+    left: 90px;
+    top: 0;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    padding: 0 3px;
+    height: 16px;
+}
+#wkx2-s,#wkx3-s,#wkx4-s,#wkx5-s,#wkx6-s,#wkx7-s{
+    height:10.4px;
+    width:56.91px;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: right;
+}
+.wkx-t{
+    height: 25px;
+    width: 110px;
+    font-size: 15px;
+    padding-left: 9px;
+    margin: 10px 0 0 ;
+}
+.wkx-d{
+    height: 16.8px;
+    width: 110px;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 9px;
+    margin: 0 0 20px;
+}
+/*第七部分*/
+#wk-d{
+    height: 55px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9px 10px;
+}
+.wk-d2{
+    height: 39px;
+    width: 173px;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #666;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wk-d2 a{
+    color: #666;
+}
+.wk-d2 img{
+    height: 12px;
+    width: 12px;
+    margin-left: 3.8px;
 }

@@ -1,0 +1,75 @@
+#body{
+    margin: 0;
+}
+/*外框*/
+#wk{
+    position: relative;
+}
+#wk-f1{
+    border-right: 100px transparent solid;
+    border-left: 100px aquamarine solid;
+    border-top: 100px transparent solid;
+    border-bottom: 100px greenyellow solid;
+    width: 0;
+}
+#wk-f2{
+    border-right: 50px transparent solid;
+    border-left: 50px transparent solid;
+    border-top: 50px salmon solid;
+    border-bottom: 50px transparent solid;
+    width: 0;
+    position: absolute;
+    top: 0;
+}
+#wk-f3{
+    border-right: 50px transparent solid;
+    border-left: 50px transparent solid;
+    border-top: 50px transparent solid;
+    border-bottom: 50px yellow solid;
+    width: 0;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+}
+#wk-f4{
+    border-right: 50px #00b3fa solid;
+    border-left: 50px transparent solid;
+    border-top: 50px yellow solid;
+    border-bottom: 50px transparent solid;
+    width: 0;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#wk-f5{
+    border-right: 50px red solid;
+    border-left: 50px transparent solid;
+    border-top: 50px red solid;
+    border-bottom: 50px transparent solid;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+#wk-f6{
+    border-right: 50px transparent solid;
+    border-left: 50px purple solid;
+    border-top: 50px transparent solid;
+    border-bottom: 50px transparent solid;
+    width: 0;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+#wk-f7{
+    border-right: 50px purple solid;
+    border-left: 50px transparent solid;
+    border-top: 50px transparent solid;
+    border-bottom: 50px transparent solid;
+    width: 0;
+    position: absolute;
+    top: 99px;
+    left: 100px;
+}
+
+
