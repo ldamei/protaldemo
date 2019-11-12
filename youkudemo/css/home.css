@@ -57,7 +57,7 @@ a{
 #wk-s{
     position: relative;
     width: 100%;
-    padding: 9px 0;
+    margin: 9px 0 9px ;
     height: 23px;
     /*background-color: #F6F6F6;*/
 }
@@ -76,7 +76,7 @@ a{
 #wk-s3{
     position: absolute;
     right: 18px;
-    top:10px;
+    top:2px;
 }
 #wk-s3 a img{
     height: 20px;
