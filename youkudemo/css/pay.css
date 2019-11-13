@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*外框*/
+#wk{
+    height: 800px;
+    background-color: white;
+}
+/*第一部分*/
+#wk-f{
+    height: 44px;
+    width: 100%;
+    /*margin-bottom: 10px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #1C2028;
+    color: white;
+    border-bottom: 1.5px #474A50 solid;
+}
+#wk-f a{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+#wk-f a img{
+    height: 25px;
+    width: 25px;
+}
+/*第二部分*/
+#wk-s{
+    height: 80px;
+    width: 100%;
+    background-color: #1C2028;
+    display: flex;
+    justify-content: center;
+   position: relative;
+}
+#wk-s0{
+    border: 1px #474A50 solid;
+    background-color: #282C36;
+    height: 62px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+#wk-s0 img{
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    margin:0 10px ;
+}
+#s-0{
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+#s-1{
+    color: #999999;
+    font-size: 11px;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+#s-2{
+    color: #999999;
+    font-size: 11px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+#wk-s1{
+    height: 26px;
+    width: 72px;
+    background-image: linear-gradient(90deg,#fce5aa,#e1b271);
+    border-radius: 100px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 18px;
+    left: 270px;
+}
+#wk-s1 a{
+    color: #5b3301;
+}
+/*第三部分*/
+#wk-t{
+    margin: 13px 11px;
+}
+#t-0{
+    font-size: 18px;
+}
+#t-1{
+    color: #4a4a4a;
+    font-size: 12px;
+    margin-left: 8px;
+}
+#wt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+#wk-t1,#wk-t2，#wk-t3{
+    height: 130px;
+}
+#t-2{
+    height: 120px;
+    width: 102px;
+    border: 1.5px #e3b675 solid;
+    border-radius:5px ;
+    background-color: #FFF7EA;
+    position: relative;
+}
+#tt-0{
+    height: 19px;
+    width: 80px;
+    color: #5b3301;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+.tt-1{
+    height: 20.8px;
+    width: 16px;
+    color: #edb161;
+    font-weight: bold;
+    position: absolute;
+    top: 48px;
+    left: 15px;
+}
+#tt-2{
+    height: 40px;
+    width: 38px;
+    color: #edb161;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 33px;
+}
+#tt-3{
+    color: #5b3301;
+    font-size: 12px;
+    position: absolute;
+    top: 75px;
+    left: 38px;
+    opacity: 0.7;
+    text-decoration: line-through;
+}
+#t-2 div{
+    border-radius: .24rem 0 .24rem 0;
+    background-color: #ff6f3b!important;
+    font-size: 11px;
+    height: 18px;
+    width: 68px;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**/
+#t-3,#t-4{
+    height: 120px;
+    width: 102px;
+    border: 1.5px solid #ebebeb;
+    border-radius:5px ;
+    background-color: #ffffff;
+    position: relative;
+}
+.tt-4{
+    height: 19px;
+    width: 80px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 24px;
+}
+.tt-5{
+    height: 40px;
+    width: 38px;
+    color: #edb161;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+.tt-6{
+    color: #5b3301;
+    font-size: 12px;
+    position: absolute;
+    top: 75px;
+    left: 22px;
+    opacity: 0.7;
+}
+#t-3 div,#t-4 div{
+    border-radius: .24rem 0 .24rem 0;
+    background-color: #ff6f3b!important;
+    font-size: 11px;
+    height: 18px;
+    width: 68px;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**/
+#wt-0 span{
+    color: #999999;
+    font-size: 12px;
+}
+/*第四部分*/
+.wt-1{
+    height: 9px;
+    width: 100%;
+    background-color: #f7f7f7;
+    margin-top: 16px;
+}
+#wk-h{
+    height: 62px;
+    width: 90%;
+    margin: 28px 20px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+#wk-h span{
+    font-size: 14px;
+    margin-left: 10px;
+}
+#wh-0{
+    height: 22px;
+    width: 22px;
+}
+#wh-1{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    right: 10px;
+}
+#h-0{
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+}
+#h-0 a span{
+    height: 16px;
+    width: 87px;
+    color: #666666;
+    font-size: 12px;
+}
+#h-0 a img{
+    height: 10px;
+    width: 10px;
+}
