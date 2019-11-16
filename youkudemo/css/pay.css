@@ -7,8 +7,9 @@ a{
 }
 /*外框*/
 #wk{
-    height: 1150px;
+    height: 1140px;
     background-color: white;
+    position: relative;
 }
 /*第一部分*/
 #wk-f{
@@ -141,6 +142,15 @@ a{
     top: 48px;
     left: 15px;
 }
+#tt-01{
+    height: 20.8px;
+    width: 16px;
+    color: #edb161;
+    font-weight: bold;
+    position: absolute;
+    top: 48px;
+    left: 28px;
+}
 #tt-2{
     height: 40px;
     width: 38px;
@@ -149,7 +159,7 @@ a{
     font-weight: bold;
     position: absolute;
     top: 30px;
-    left: 33px;
+    left: 45px;
 }
 #tt-3{
     color: #5b3301;
@@ -258,9 +268,13 @@ a{
     right: 10px;
 }
 #h-0{
+    height: 20px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    left: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #h-0 a span{
     height: 16px;
@@ -274,7 +288,7 @@ a{
 }
 /*第五部分*/
 #wk-i{
-    height: 250px;
+    height: 350px;
     padding: 25px 0;
 }
 #i-0{
@@ -356,20 +370,25 @@ a{
     position: absolute;
     right: 20px;
 }
-/*第六部分*/
+/*固定底栏*/
 #wk-x{
+    width: 92%;
+    position: fixed;
+    bottom: 5px;
+    left: 15px;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #wk-x div{
     height: 50px;
-    width: 92%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(90deg,#fce5aa,#e1b271);
-    border-radius: 1.28rem;
+    border-radius: 30px;
 }
 #x-1{
     font-size: 18px;

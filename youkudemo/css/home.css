@@ -33,6 +33,7 @@ a{
     position: absolute;
     top: 16%;
     right: 45px;
+    outline: none;
 }
 #wk-f2{
     position: absolute;
@@ -151,8 +152,65 @@ a{
     font-size: 17px;
     color: white;
 }
+/*会员开通*/
+#hy{
+    height: 55px;
+    /*border: 1px red solid;*/
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+}
+#hy a img{
+    height: 25px;
+    width: 25px;
+    border: 1.5px #ebba73 solid;
+    border-radius: 13px;
+    position: absolute;
+    top: 10px;
+}
+#vi{
+    position: absolute;
+    left: 30px;
+    top:18px ;
+    height: 13px;
+    width: 30px;
+    background-color: #ebba73;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 11px;
+    color: #5b3301;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+#hy a span{
+    font-size: 14px;
+    color: #ebba73;
+    margin-left: 30px;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+}
+#kt{
+    height: 25px;
+    width: 82px;
+    background-image: linear-gradient(90deg,#fce5aa,#e1b271);
+    border-radius: 15px;
+    color: #5b3301;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*第四部分*/
 #wk-h{
+    height: 352px;
     width: 100%;
     /*background-color: #E22313;*/
 }
